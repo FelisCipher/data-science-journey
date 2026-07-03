@@ -56,11 +56,11 @@ log_loss(y_test, yhat_prob) # measure prediction error based on predicted probab
 
 ## Interview-style question I could be asked
 1. How do you decide which regression model to use (Linear, Multiple Linear, Polynomial, Non-Linear, or Logistic Regression)?
-	a) Simple Linear Regression → One feature, continuous output, linear relationship.
-	b) Multiple Linear Regression → Multiple features, continuous output, linear relationship.
-	c) Polynomial Regression → Continuous output with a curved relationship (uses polynomial features).
-	d) Non-Linear Regression → Complex relationships that cannot be modeled using polynomial features (e.g., exponential, logarithmic).
-	e) Logistic Regression → Classification problems (binary or multiclass), predicts probabilities.
+ - Simple Linear Regression → One feature, continuous output, linear relationship.
+ - Multiple Linear Regression → Multiple features, continuous output, linear relationship.
+ - Polynomial Regression → Continuous output with a curved relationship (uses polynomial features).
+ - Non-Linear Regression → Complex relationships that cannot be modeled using polynomial features (e.g., exponential, logarithmic).
+ - Logistic Regression → Classification problems (binary or multiclass), predicts probabilities.
 
 2. Why can't we use Linear Regression for classification and use Logistic Regression instead?
 	- Linear Regression predicts continuous values and can produce outputs less than 0 or greater than 1, so it is unsuitable for classification.
