@@ -26,12 +26,14 @@ This repo picks up from **IBM Course 9 onward**, but daily revision sessions (se
 
 ```
 data-science-journey/
-├── notes/              # Daily notes — one markdown file per topic/day
-├── python-practice/    # Daily Python drills and exercises
-├── ibm-cert/           # Labs, assignments, exercises from the IBM certificate
-├── ml-specialization/  # Work from Andrew Ng's ML Specialization
-├── dl-specialization/  # Work from Andrew Ng's Deep Learning Specialization
-├── projects/           # Portfolio projects (end-to-end, deployed)
+├── notes/                    # Daily notes — one markdown file per topic/day
+├── python-practice/          # Daily Python drills and exercises
+├── ibm-cert/
+    ├── certificates/         # Certificates secured for each course completion
+    ├── practice-notebooks/   # Self-directed extensions of course labs
+├── ml-specialization/        # Work from Andrew Ng's ML Specialization
+├── dl-specialization/        # Work from Andrew Ng's Deep Learning Specialization
+├── projects/                 # Portfolio projects (end-to-end, deployed)
 └── README.md
 ```
 
@@ -75,22 +77,6 @@ Notes live in `/notes`, one file per day, named `YYYY-MM-DD-topic.md`. Each note
 ## Python practice
 
 Daily drills in `/python-practice`, covering language fundamentals early on and shifting toward ML, DL as the course progresses.
-
-## Weekly schedule
-
-| Week | Dates | Focus |
-|---|---|---|
-| 1 | Jul 2 – 8 | IBM Course 9: Machine Learning with Python |
-| 2 | Jul 9 – 15 | IBM Course 10: Applied Data Science Capstone → Project 1 |
-| 3 | Jul 16 – 20 | IBM Course 11 + 12 → **IBM Cert complete** |
-| 3-4 | Jul 21 – 29 | ML Spec Course 1: Supervised ML |
-| 5 | Jul 30 – Aug 5 | ML Spec Course 2: Advanced Learning Algorithms |
-| 5-6 | Aug 3 – 9 | ML Spec Course 3 → **ML Specialization complete** |
-| 6-7 | Aug 6 – 14 | DL Spec Course 1 + 2 |
-| 7 | Aug 15 – 19 | DL Spec Course 3 + 4 |
-| 8 | Aug 20 – 24 | DL Spec Course 5 → **DL Specialization complete** |
-| 8-9 | Aug 22 – 29 | Project 2: end-to-end deep learning project |
-| 9 | Aug 29 – 31 | Portfolio polish, resume, LinkedIn |
 
 ## About me
 
