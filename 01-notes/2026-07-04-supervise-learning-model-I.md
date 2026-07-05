@@ -4,38 +4,38 @@
 **TL;DR:** Predict a category.
 
 **Key Concepts**
-	- Predicts discrete labels/classes
-	- Examples: Spam/Not Spam, Fraud/Not Fraud
-	- Common metrics: Accuracy, Precision, Recall, F1, ROC-AUC
+- Predicts discrete labels/classes
+- Examples: Spam/Not Spam, Fraud/Not Fraud
+- Common metrics: Accuracy, Precision, Recall, F1, ROC-AUC
 
 ## Regression
 **TL;DR:** Predict a number.
 
 **Key Concepts**
-	- Predicts continuous values
-	- Examples: House Price, Temperature
-	- Common metrics: MAE, MSE, RMSE, R²
+- Predicts continuous values
+- Examples: House Price, Temperature
+- Common metrics: MAE, MSE, RMSE, R²
 
 ## Decision Tree
 **TL;DR:** Series of if-else questions → prediction.
 
 **Key Concepts**
-	- Tree-based model using decision rules
-	- Splits data to reduce impurity/error
-	- Easy to interpret
-	- Can overfit if too deep
+- Tree-based model using decision rules
+- Splits data to reduce impurity/error
+- Easy to interpret
+- Can overfit if too deep
 
 ## Regression Tree
 **TL;DR:** Decision tree for predicting numbers.
 
 **Key Concepts**
-	- Used for regression tasks
-	- Splits data to minimize variance/MSE
-	- Outputs continuous values
+- Used for regression tasks
+- Splits data to minimize variance/MSE
+- Outputs continuous values
 
 ## Math / formula (if applicable)
-	- Entropy = -Σ pᵢ log₂(pᵢ)
-	- Gini = 1 - Σ pᵢ²
+- Entropy = -Σ pᵢ log₂(pᵢ)
+- Gini = 1 - Σ pᵢ²
 
 ## Code
 ```python
@@ -65,12 +65,11 @@ y_pred_ovo = model_ovo.predict(X_test)
 
 ### 1. What is the difference between Classification and Regression?
 
-	- **Classification** predicts **categorical outputs** (e.g., Spam/Not Spam, Yes/No).
-	- **Regression** predicts **continuous numerical values** (e.g., House Price, Temperature).
-
-	**Examples**
-		- Classification → Email is Spam or Not Spam.
-		- Regression → Predict the price of a house.
+- **Classification** predicts **categorical outputs** (e.g., Spam/Not Spam, Yes/No).
+- **Regression** predicts **continuous numerical values** (e.g., House Price, Temperature).
+- **Examples**
+	- Classification → Email is Spam or Not Spam.
+	- Regression → Predict the price of a house.
 
 ## Links
 - https://www.coursera.org/learn/machine-learning-with-python/
