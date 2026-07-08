@@ -4,59 +4,59 @@
 **TL;DR:** Finds the widest possible gap between classes.
 
 **Key Concepts**
-	- Learns the optimal separating hyperplane
-	- Maximizes margin between classes
-	- Kernel trick handles non-linear data
+- Learns the optimal separating hyperplane
+- Maximizes margin between classes
+- Kernel trick handles non-linear data
 
 ## KNN (K-Nearest Neighbors)
 **TL;DR:** Majority vote of the nearest neighbors.
 
 **Key Concepts**
-	- Instance-based (lazy) learning
-	- Prediction based on K closest points
-	- Sensitive to feature scaling and choice of K
+- Instance-based (lazy) learning
+- Prediction based on K closest points
+- Sensitive to feature scaling and choice of K
 
 ## Bias
 **TL;DR:** Model is too simple → Underfitting.
 
 **Key Concepts**
-	- Comes from overly simplistic assumptions
-	- Misses important patterns
-	- High training and test error
+- Comes from overly simplistic assumptions
+- Misses important patterns
+- High training and test error
 
 ## Variance
 **TL;DR:** Model memorizes data → Overfitting.
 
 **Key Concepts**
-	- Sensitive to small changes in training data
-	- Learns noise instead of patterns
-	- Low training error, high test error
+- Sensitive to small changes in training data
+- Learns noise instead of patterns
+- Low training error, high test error
 
 ## Ensemble Models
 **TL;DR:** Combine multiple models for better predictions.
 
 **Key Concepts**
-	- Improves robustness and accuracy
-	- Reduces bias, variance, or both
-	- Includes Bagging and Boosting methods
+- Improves robustness and accuracy
+- Reduces bias, variance, or both
+- Includes Bagging and Boosting methods
 
 ## Random Forest
 **TL;DR:** Many randomized decision trees vote together.
 
 **Key Concepts**
-	- Ensemble of decision trees
-	- Uses bagging and random feature selection
-	- Reduces overfitting
-	- Good default model for tabular data
+- Ensemble of decision trees
+- Uses bagging and random feature selection
+- Reduces overfitting
+- Good default model for tabular data
 
 ## XGBoost
 **TL;DR:** Sequential trees learn from previous mistakes.
 
 **Key Concepts**
-	- Gradient Boosting algorithm
-	- Each tree corrects previous errors
-	- Regularized for better generalization
-	- Excellent for structured/tabular datasets
+- Gradient Boosting algorithm
+- Each tree corrects previous errors
+- Regularized for better generalization
+- Excellent for structured/tabular datasets
 
 ## Math / formula (if applicable)
 	- Decision boundary: wᵀx + b = 0 (for SVM)
@@ -125,7 +125,7 @@ xgb = XGBRegressor(n_estimators=n_estimators, random_state=42)
 	- Wrong distance metric.
 
 ### 3. Why does the model deteriorate as K increases?
-	- As K increases, KNN considers more distant neighbors. This smooths the decision boundary too much, increasing bias and causing underfitting. Eventually, the model starts predicting based on the overall majority class rather than the local neighborhood, reducing accuracy.
+- As K increases, KNN considers more distant neighbors. This smooths the decision boundary too much, increasing bias and causing underfitting. Eventually, the model starts predicting based on the overall majority class rather than the local neighborhood, reducing accuracy.
 
 ## Links
 - https://www.coursera.org/learn/machine-learning-with-python/
