@@ -54,6 +54,7 @@ $$
 ### DBSCAN Density Condition
 
 A point is a **Core Point** if:
+
 $$
 |N_{\varepsilon}(p)| \ge \text{MinPts}
 $$
